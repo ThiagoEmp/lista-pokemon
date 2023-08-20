@@ -11,8 +11,21 @@ body.modo-claro {
     color: #ffffff;
 }
 
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
 
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 
+a:hover {
+    color: rgb(255, 0, 43);
+    text-decoration: none;
+  }
 
 .botao-lua-2 {
     background-color: transparent;
@@ -61,8 +74,14 @@ main .cartao-pokemon:hover {
     transform: scale(1.10);
 }
 
+.modo-claro .cartao-pokemon:hover {
+    background-color: #69b2be;
+    transform: scale(1.10);
+}
+
+
 .modo-claro .cartao-pokemon {
-    background-color: #e7ddd2;
+    background-color: #a9d4d2;
 }
 
 main .cartao-pokemon .informacoes {
